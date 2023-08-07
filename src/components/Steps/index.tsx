@@ -89,10 +89,10 @@ export function Steps({
             <a
               className="text-blue-900 text-center mb-2"
               target="_blank"
-              href={`http://localhost:3000/${CAMPAIGN_NAME}?id=${campaign.id}`}
+              href={`https://aeoncompaing-fhuo.vercel.app/${CAMPAIGN_NAME}?id=${campaign.id}`}
               rel="noreferrer"
             >
-              {`http://localhost:3000/${CAMPAIGN_NAME}?id=${campaign.id}`}
+              {`https://aeoncompaing-fhuo.vercel.app/${CAMPAIGN_NAME}?id=${campaign.id}`}
             </a>
           )}
           <button
