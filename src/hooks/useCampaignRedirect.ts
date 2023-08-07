@@ -3,12 +3,12 @@ import React from 'react'
 import { collection, getDocs, updateDoc, doc } from 'firebase/firestore'
 import { db } from '@/services/firebase'
 import { useRouter } from 'next/navigation'
-import { ICampaignRedirect } from '@/types/type'
+import { ICampaignParams } from '@/types/type'
 
 export function useCampaignRedirect({
   searchParams,
   params,
-}: ICampaignRedirect): void {
+}: ICampaignParams): void {
   const router = useRouter()
   console.log(params, 'params')
   React.useEffect(() => {
